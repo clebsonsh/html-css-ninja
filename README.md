@@ -29,10 +29,10 @@ show it
 
 ``` css
   p {
-    aling: center;
+    align: center;
   }
   a {
-    decoration: none;
+    text-decoration: none;
   }
   img {
     height: 100px;
