@@ -24,6 +24,7 @@ show it
 ## What is CSS?
 ### **C**ascading **S**tyle **S**heets
 - Works alongside HTML
+- Style Sheet - a list of CSS rues / rule sets
 - Used to style web pages to make them look better
   - Change colo~~u~~rs, position, effects, font sizes etc
 
