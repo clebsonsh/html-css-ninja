@@ -1,0 +1,50 @@
+/* p.error {
+  color: red;
+}
+
+p.success {
+  color: #1f991f;
+}
+
+p.success.feedback {
+  border: 1px dashed #1f991f;
+}
+
+#content {
+  background-color: #ebebeb;
+  padding: 20px;
+} */
+
+/* div p {
+  color: purple;
+} */
+
+a[href="https://www.thenetninja.co.uk"] {
+  background-color: #3dd138;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a[href*="google"] { /* any href that have google */
+  color: white;
+  background: red;
+}
+
+a[href$=".com"] { /* any href that ends in .com*/
+  border: 2px solid blue;
+}
+
+div {
+  color: lightcoral;
+  border: 1px solid grey;
+  margin: 40px;
+  font-weight: bold;
+}
+
+p {
+  color: crimson;
+  border: inherit;
+  margin: inherit;
+}
