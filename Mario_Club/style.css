@@ -41,7 +41,7 @@ header h1 {
 }
 
 .banner h2 {
-  font-size: 44px;
+  font-size: 84px;
 }
 
 .banner h2 span {
@@ -172,4 +172,44 @@ article p::first-line {
 
 p::after {
   content: '...';
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 1400px) {
+  .banner h2 {
+    font-size: 54px;
+  }
+
+  .main-nav li{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .banner h2 {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .banner .welcome {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .banner .welcome br {
+    display: none;
+  }
+
+  .banner .welcome span {
+    font-size: 1em;
+  }
+
+  .images li {
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+  }
 }
